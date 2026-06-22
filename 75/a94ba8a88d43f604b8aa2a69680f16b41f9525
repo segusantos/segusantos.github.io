@@ -1,0 +1,14 @@
+index.html
+  h_426bd26fd7d218 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "75a94ba8a88d43f604b8aa2a69680f16b41f9525",
+  "prompts": {},
+  "humans": {
+    "h_426bd26fd7d218": {
+      "author": "Segundo Santos <segundo.santos4@gmail.com>"
+    }
+  }
+}
