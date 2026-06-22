@@ -1,0 +1,79 @@
+index.html
+  s_2ba25cbd90c9d9::t_6c03d80b09e80e 18,20,25
+  s_2ba25cbd90c9d9::t_eada73276f84d6 28
+  s_8056c0d3fc6fca::t_9f33124a41dd9b 1-5,9,11-12,33-34
+  s_2ba25cbd90c9d9::t_8269ffd298675b 16-17
+  s_2ba25cbd90c9d9::t_42c5dee7b551c7 8
+  s_2ba25cbd90c9d9::t_2d9f452876d547 35
+  h_426bd26fd7d218 6-7,10,13-15,19,21,24,27,29-32
+  s_2ba25cbd90c9d9::t_4839c06e55c9b3 22-23,26
+favicon.svg
+  s_2ba25cbd90c9d9::t_42c5dee7b551c7 1-3
+styles.css
+  s_2ba25cbd90c9d9::t_2b307bcc1e4050 42
+  s_2ba25cbd90c9d9::t_4793454cb186ba 68
+  s_2ba25cbd90c9d9::t_75fa5b10204612 72-73,77,129-130
+  s_2ba25cbd90c9d9::t_6cfd9efc886e9a 82
+  s_2ba25cbd90c9d9::t_8edf3b39d049f5 102,111-112
+  s_8056c0d3fc6fca::t_8392c90c903f42 14,24-25,29
+  s_2ba25cbd90c9d9::t_95a36ebea80779 3
+  s_2ba25cbd90c9d9::t_dee3f5d5a6ab84 126-127
+  s_2ba25cbd90c9d9::t_78d51dbcabae6b 2
+  s_8056c0d3fc6fca::t_915cb219586c70 49-50,53-54,70-71
+  s_2ba25cbd90c9d9::t_e66868e3796594 5,15-16,83
+  h_426bd26fd7d218 6,69
+  s_2ba25cbd90c9d9::t_7e5754fb44cdae 97
+  s_2ba25cbd90c9d9::t_d9f5808ff51267 76
+  s_2ba25cbd90c9d9::t_d7e327bcacaa44 115-116
+  s_2ba25cbd90c9d9::t_6c03d80b09e80e 113,117,119,122-125,128
+  s_2ba25cbd90c9d9::t_6903ce48fa321e 4,17-23,87-88,90,94-96
+  s_2ba25cbd90c9d9::t_97cc9a6a6d7412 67,74-75
+  s_2ba25cbd90c9d9::t_8269ffd298675b 28,32-33,38,47-48,51-52,55-56,59,61,63-65,80-81,86,100-101,132
+  s_2ba25cbd90c9d9::t_dc190b2d3a5a40 108-109
+  s_2ba25cbd90c9d9::t_65694056c46357 121
+  s_2ba25cbd90c9d9::t_05c04569184ee0 57-58,62,120
+  s_8056c0d3fc6fca::t_9f33124a41dd9b 1,8-13,26,36-37,39,43-46,147-148
+  s_8056c0d3fc6fca::t_9c4224ab71e962 30-31
+  s_2ba25cbd90c9d9::t_4839c06e55c9b3 7,34-35,66,91-93,103-104,107,110,114,118,134-146
+  s_8056c0d3fc6fca::t_24e82f688c1f5f 40-41,78-79,84-85,98-99,105-106,131,133
+  s_2ba25cbd90c9d9::t_273a3b7081feeb 27,60,89
+main.js
+  s_2ba25cbd90c9d9::t_04a167ab33ca0c 5
+  s_2ba25cbd90c9d9::t_8269ffd298675b 1-2,18,22,25-26,30-33,36-37,39-41,44,46-51,53-58,61,65-66,74,78-79,85,88-89,91-93,96-98,200-201,203-208
+  s_2ba25cbd90c9d9::t_6c03d80b09e80e 3,6-17,23,28-29,34,100-104,106-117,120-126,128-130,132-135,137-141,143-145,148,189-191
+  s_2ba25cbd90c9d9::t_42c5dee7b551c7 19-21,24,27,38,42-43,45,52,59-60,62,67-72,77,80-81,84,90,94-95,105,127,131,136,142,146,149-188,192-197
+  h_426bd26fd7d218 4
+  s_8056c0d3fc6fca::t_9f33124a41dd9b 35,63-64,73,75-76,82-83,86-87,99,198-199,210
+  s_8056c0d3fc6fca::t_dbff9f06aaa44d 202,209
+  s_2ba25cbd90c9d9::t_251183486d1191 147
+  s_2ba25cbd90c9d9::t_dee3f5d5a6ab84 118-119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "80abc74c4406504243dd59f21f5795bcfdf4de45",
+  "prompts": {},
+  "humans": {
+    "h_426bd26fd7d218": {
+      "author": "Segundo Santos <segundo.santos4@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2ba25cbd90c9d9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e460b-d79b-7b20-a066-3fc6011b9e6c",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Segundo Santos <segundo.santos4@gmail.com>"
+    },
+    "s_8056c0d3fc6fca": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e3ca4-eabf-7750-a96f-c44b36be4d70",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Segundo Santos <segundo.santos4@gmail.com>"
+    }
+  }
+}
