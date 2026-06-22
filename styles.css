@@ -1,0 +1,148 @@
+:root {
+  --background: #fff;
+  --foreground: #000;
+  --life-cell-color: rgba(72, 72, 72, 0.055);
+  --life-cell-size: 8px;
+  --content-width: 600px;
+  --content-gutter: calc(var(--life-cell-size) * 5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  color: var(--foreground);
+  font:
+    18px/1.55 Georgia,
+    Palatino,
+    "Palatino Linotype",
+    Times,
+    "Times New Roman",
+    serif;
+}
+
+body {
+  min-height: 170vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+.life-rail {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: max(0rem, calc((100vw - var(--content-width)) / 2 - var(--content-gutter)));
+  height: 100vh;
+  pointer-events: none;
+}
+
+.life-rail--left {
+  left: 0;
+}
+
+.life-rail--right {
+  right: 0;
+}
+
+.page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(var(--content-width), calc(100vw - 2rem));
+  min-height: 170vh;
+  margin: 0 auto;
+  padding: clamp(5rem, 11vh, 7rem) 0 0;
+}
+
+.masthead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 7rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.portrait {
+  display: block;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.3rem, 7vw, 3.4rem);
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1.05;
+}
+
+h2 {
+  margin-bottom: 0.55rem;
+  font-size: 1.35rem;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.25rem;
+  margin-top: 1.5rem;
+}
+
+section {
+  display: grid;
+  row-gap: 1.35rem;
+  padding-top: clamp(3.75rem, 9vh, 5rem);
+}
+
+section > p {
+  max-width: 38rem;
+}
+
+.pulsar-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: clamp(4.5rem, 10vh, 6rem) 0 2rem;
+}
+
+#pulsar-end {
+  display: block;
+  width: calc(var(--life-cell-size) * 15);
+  height: calc(var(--life-cell-size) * 15);
+  image-rendering: pixelated;
+}
+
+@media (max-width: 56rem) {
+  .life-rail {
+    display: none;
+  }
+}
+
+@media (max-width: 42rem) {
+  .masthead {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .portrait {
+    grid-row: 1;
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+}
