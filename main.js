@@ -1,6 +1,6 @@
 const CELL = 8;
 const SCROLL_PER_GENERATION = 28;
-const PULSAR_STEP_MS = 420;
+const PULSAR_STEP_MS = 1000;
 const RAIL_DENSITY = 0.1;
 const PAGE_SEED = (Date.now() ^ Math.floor(Math.random() * 0xffffffff)) >>> 0;
 const PULSAR = [

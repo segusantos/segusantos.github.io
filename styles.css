@@ -3,7 +3,9 @@
   --foreground: #000;
   --life-cell-color: rgba(72, 72, 72, 0.055);
   --life-cell-size: 8px;
-  --content-width: 600px;
+  --page-width: 42rem;
+  --page-gutter: 1.5rem;
+  --content-width: calc(var(--page-width) - 2 * var(--page-gutter));
   --content-gutter: calc(var(--life-cell-size) * 5);
 }
 
@@ -15,7 +17,7 @@ html {
   background: var(--background);
   color: var(--foreground);
   font:
-    18px/1.55 Georgia,
+    16px/1.55 Georgia,
     Palatino,
     "Palatino Linotype",
     Times,
@@ -56,10 +58,10 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: min(var(--content-width), calc(100vw - 2rem));
+  width: min(var(--page-width), 100%);
   min-height: 170vh;
   margin: 0 auto;
-  padding: clamp(5rem, 11vh, 7rem) 0 0;
+  padding: clamp(5rem, 11vh, 7rem) var(--page-gutter) 0;
 }
 
 .masthead {
